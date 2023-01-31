@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./images/Nature-Logo-Graphics-1-32-removebg-preview.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./images/Nature-Logo-Graphics-1-32-removebg-preview.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.sabbir146891.photogram"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./images/Nature-Logo-Graphics-1-32-removebg-preview.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb08d411-3d31-43f5-acba-8710226f2809"
+      }
     }
   }
 }
